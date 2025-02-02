@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Newsletter = () => {
+const Newsletter: React.FC = () => {
   return (
     <div className='w-full py-16 text-white px-4'>
       <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
@@ -22,7 +22,7 @@ const Newsletter = () => {
             </button>
           </div>
           <p>
-            We care bout the protection of your data. Read our{' '}
+            We care about the protection of your data. Read our{' '}
             <span className='text-[#00df9a]'>Privacy Policy.</span>
           </p>
         </div>
